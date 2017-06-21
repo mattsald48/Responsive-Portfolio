@@ -1,0 +1,391 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+
+body{
+
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0px 0px 100px; 
+}
+
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: white;
+  width: 94%;
+  height: 45px;
+  position: relative;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #cccccc;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a:link {
+    background-color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: white;
+    text-decoration: none;
+    color:grey;
+}
+
+a:hover {
+    background-color: white;
+    text-decoration: none;
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+a:active {
+    background-color: white;
+    text-decoration: none;
+}
+
+#container{
+	width: 960px; 
+	margin: 0 auto; 
+	overflow: hidden;
+}
+
+
+.name { background: #4aaaa5; 
+	color: white; 
+	width: 35%; 
+	height: 55%;
+	float: left;
+	position: absolute;
+	bottom: 0px;
+	font-size: 34px;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.tabs{ background: white; 
+	width: 35%; 
+	height: 15%;
+	float: right; 
+	position: absolute;
+	bottom: 15px;
+	right: 0px; 
+	font-size: 15px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	
+}
+
+#about{ float: left; 
+	width: 30%;
+	height: 100%;
+	border-right-style: inset;
+	border-right-width: 2px;
+	border-right-color: #cccccc;
+	text-align: center;
+
+}
+
+#portfolio{ float: left; 
+	width: 30%;
+	height: 100%;
+	border-right-style: inset;
+	border-right-width: 2px;
+	border-right-color: #cccccc;
+	text-align: center;
+
+}
+
+#contact{ float: left; 
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	margin-left: 0px;
+
+}
+
+.content{
+	width: 620px;
+	height: 620px;
+	margin: 50px 10px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #dddddd;
+	 
+}
+
+.contentTitle{
+	margin: 10px 10px 10px 10px;
+	font-size: 34px;
+	height: 15%;
+	border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+
+}
+
+.link{
+	float: right;
+	width: 270px;
+	height: 150px;
+	margin-top: 2px;
+	background-color: #ffffff; 
+	border-style: solid;
+	border-color: #dddddd;
+	
+}
+
+.linkTitle{
+	margin: 20px 20px;
+	height: 15%;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+	text-align: center;
+}
+
+#github{
+	width: 30%;
+	float: left;
+	margin-left: 26px;
+
+}
+
+#linkdin{
+	width: 30%;
+	float: left;
+	
+}
+
+#stackoverflow{
+	width: 30%;
+    float: left;	
+
+}
+
+.middleLayout{
+     width: 960px;
+}
+
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+    vertical-align: middle;
+    margin: 5px 0px 5px 0px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #4aaaa5;
+
+
+}
+
+.Hangman{
+    	/*148*/
+    	background-image: url(http://lorempixel.com/425/285/);
+    	float: left;
+    	height:148px;
+    	width:256px;
+    	margin:1% 1% 1% 5%;
+    	text-align: center;
+}
+
+.RPGGame{
+		background-image: url(http://lorempixel.com/425/285/);
+		float: left;
+		height: 148px;
+		width: 256px;
+		margin:1% 1% 1% 6%;
+		text-align: center;
+}
+
+.Trivia{
+		background-image: url(http://lorempixel.com/425/285/);	
+        float: left;
+		height: 148px;
+		width: 256px;
+		margin:1% 1% 1% 5%;
+		text-align: center;
+}
+
+.Rutger{
+		background-image: url(http://lorempixel.com/425/285/);
+		float: left;
+		height: 148px;
+		width: 256px;
+		margin:1% 1% 1% 6%;
+		text-align: center;
+}
+
+.RPS{
+		background-image: url(http://lorempixel.com/425/285/);
+		float: left;
+		height: 148px;
+		width: 256px;
+		margin:1% 1% 1% 5%;
+		text-align: center;
+
+}
+
+.box{
+	background-color: #4aaaa5;
+	color: white;
+	width: 256px;
+	height:40px;
+	padding-top: 5%;
+	margin-top: 35%;
+}
+
+@media screen and (max-width: 980px){
+	
+}
+
+@media screen and (max-width: 768px){
+	#container{
+		width: 768px;
+	}
+
+	.link{
+		width: 75%;
+		float: none;
+	}
+	
+	.content{
+		width: 75%;
+	}
+	#github{
+	width: 10%;
+	float: left;
+	margin-left: 26px;
+
+	}
+
+	#linkdin{
+	width: 10%;
+	float: left;
+	
+	}
+
+	#stackoverflow{
+	width: 10%;
+    float: left;	
+
+	}
+
+	.linkTitle{
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 640px){
+	#container{
+		width: 640px;
+	}
+
+	.content{
+		height: 100%;
+		width: 75%;
+	}
+
+	.link{
+		width: 75%;
+		height: 125px;
+		float: none;
+	}
+	
+		#github{
+		width: 10%;
+		float: left;
+		margin-left: 26px;
+
+	}
+
+	#linkdin{
+		width: 10%;
+		float: left;
+	
+	}
+
+	#stackoverflow{
+		width: 10%;
+    	float: left;	
+
+	}
+
+	.linkTitle{
+		text-align: left;
+	}
+
+	.name{
+		float: none;
+		position: relative;
+		width: 90%;
+		height: 80%;
+		padding-top: 0px;
+	}
+	
+	.tabs{ background: white; 
+		width: 90%; 
+		height: 15%;
+		float: none; 
+	
+	} 
+	
+	.Hangman{
+		float: none;
+		width: 60%;
+	    height: 300px;
+	    margin:1% 1% 1% 10%;
+	    position: relative;/*delete this*/
+
+	}
+	
+	.RPGGame{
+		float: none;
+		width: 60%;
+		height: 300px;
+		margin:1% 1% 1% 10%;
+		
+	}
+
+	.Trivia{
+		float: none;
+		width: 60%;
+		height: 300px;
+		margin:1% 1% 1% 10%;
+	}
+
+	.Rutger{
+		float: none;
+		width: 60%;
+		height: 300px;
+		margin:1% 1% 1% 10%;
+	}
+
+	.RPS{
+		float: none;
+		width: 60%;
+		height: 300px;
+		margin:1% 1% 1% 10%;
+	}
+
+	.box{
+		margin-top: 5%;
+		width: 100%;
+		position:relative;
+		top:230px;
+	}
+
+}
+
+
+	
